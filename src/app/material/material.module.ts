@@ -11,6 +11,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input'
 import {MatStepperModule} from '@angular/material/stepper';
 import { ReactiveFormsModule  } from "@angular/forms";
+import { HttpClientModule } from "@angular/common/http";
 
 
 const MaterialComponents = [
@@ -25,7 +26,8 @@ const MaterialComponents = [
   MatFormFieldModule,
   MatInputModule,
   MatStepperModule,
-  ReactiveFormsModule
+  ReactiveFormsModule,
+  HttpClientModule
 ]
 
 @NgModule({
